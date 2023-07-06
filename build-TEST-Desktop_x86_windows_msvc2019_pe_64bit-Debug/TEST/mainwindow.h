@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QFileSystemModel>
+#include<QFileDialog>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -16,7 +18,13 @@ public:
     ~MainWindow();
     void open();
 
+private slots:
+    void on_loadImage_btn_clicked();
+
 private:
     Ui::MainWindow *ui;
+    QFileSystemModel *dirmodel;
+    QFileSystemModel *filemodel;
+
 };
 #endif // MAINWINDOW_H

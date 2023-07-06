@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.6
+** Created by: Qt User Interface Compiler version 5.15.14
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -141,17 +141,17 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        loadImage_btn->setText(QApplication::translate("MainWindow", "Load image", nullptr));
-        Test_btn->setText(QApplication::translate("MainWindow", "Test", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        loadImage_btn->setText(QCoreApplication::translate("MainWindow", "Load image", nullptr));
+        Test_btn->setText(QCoreApplication::translate("MainWindow", "Test", nullptr));
         ImageViewer->setText(QString());
-        RGB->setText(QApplication::translate("MainWindow", "RGB", nullptr));
-        Info->setText(QApplication::translate("MainWindow", "Info", nullptr));
-        height->setText(QApplication::translate("MainWindow", "Height", nullptr));
+        RGB->setText(QCoreApplication::translate("MainWindow", "RGB", nullptr));
+        Info->setText(QCoreApplication::translate("MainWindow", "Info", nullptr));
+        height->setText(QCoreApplication::translate("MainWindow", "Height", nullptr));
         heightLbl->setText(QString());
-        width->setText(QApplication::translate("MainWindow", "Width:", nullptr));
+        width->setText(QCoreApplication::translate("MainWindow", "Width:", nullptr));
         widthLbl->setText(QString());
-        name->setText(QApplication::translate("MainWindow", "Name:", nullptr));
+        name->setText(QCoreApplication::translate("MainWindow", "Name:", nullptr));
         nameLbl->setText(QString());
     } // retranslateUi
 

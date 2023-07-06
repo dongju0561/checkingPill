@@ -288,6 +288,12 @@ debug\moc_mainwindow.cpp: ..\TEST\mainwindow.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtGui\qtouchdevice.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qtabwidget.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtGui\qicon.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QFileSystemModel \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qfilesystemmodel.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qabstractitemmodel.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qdir.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qfileinfo.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qdiriterator.h \
 		debug\moc_predefs.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\bin\moc.exe
 	C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/pill/build-TEST-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h -IC:/Qt/Qt5.12.6/5.12.6/msvc2017_64/mkspecs/win32-msvc -ID:/pill/TEST -IC:/Qt/Qt5.12.6/5.12.6/msvc2017_64/include -IC:/Qt/Qt5.12.6/5.12.6/msvc2017_64/include/QtWidgets -IC:/Qt/Qt5.12.6/5.12.6/msvc2017_64/include/QtGui -IC:/Qt/Qt5.12.6/5.12.6/msvc2017_64/include/QtANGLE -IC:/Qt/Qt5.12.6/5.12.6/msvc2017_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\TEST\mainwindow.h -o debug\moc_mainwindow.cpp
@@ -422,6 +428,12 @@ debug\main.obj: ..\TEST\main.cpp ..\TEST\mainwindow.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtGui\qtouchdevice.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qtabwidget.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtGui\qicon.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QFileSystemModel \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qfilesystemmodel.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qabstractitemmodel.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qdir.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qfileinfo.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qdiriterator.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QPushButton \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qpushbutton.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qabstractbutton.h \
@@ -540,6 +552,12 @@ debug\mainwindow.obj: ..\TEST\mainwindow.cpp ..\TEST\mainwindow.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtGui\qtouchdevice.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qtabwidget.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtGui\qicon.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QFileSystemModel \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qfilesystemmodel.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qabstractitemmodel.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qdir.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qfileinfo.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\qdiriterator.h \
 		ui_mainwindow.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtCore\QVariant \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QApplication \
@@ -549,13 +567,25 @@ debug\mainwindow.obj: ..\TEST\mainwindow.cpp ..\TEST\mainwindow.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qdesktopwidget.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtGui\qguiapplication.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtGui\qinputmethod.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QHBoxLayout \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qboxlayout.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qlayout.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qgridlayout.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QLabel \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qlabel.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qframe.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QMenuBar \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qmenubar.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qmenu.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qaction.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qactiongroup.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QPushButton \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qpushbutton.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qabstractbutton.h \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QStatusBar \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\qstatusbar.h \
+		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QVBoxLayout \
 		C:\Qt\Qt5.12.6\5.12.6\msvc2017_64\include\QtWidgets\QWidget
 
 debug\qrc_image.obj: debug\qrc_image.cpp 
