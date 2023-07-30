@@ -25,6 +25,18 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
+INCLUDEPATH += C:\opencv\build\include
+
+LIBS += -LC:\opencv\build\x64\vc16\lib\
+
+CONFIG(debug, debug|release){
+    LIBS += -lopencv_world480d
+}
+
+CONFIG(debug, debug|release){
+    LIBS += -lopencv_world480
+}
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin

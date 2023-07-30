@@ -26,8 +26,6 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QPushButton *loadImage_btn;
-    QPushButton *Test_btn;
     QLabel *ImageViewer;
     QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
@@ -42,6 +40,11 @@ public:
     QHBoxLayout *horizontalLayout;
     QLabel *name;
     QLabel *nameLbl;
+    QWidget *verticalLayoutWidget_2;
+    QVBoxLayout *verticalLayout_2;
+    QPushButton *loadImage_btn;
+    QPushButton *Test_btn;
+    QPushButton *pushButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -55,15 +58,9 @@ public:
         MainWindow->setFont(font);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        loadImage_btn = new QPushButton(centralwidget);
-        loadImage_btn->setObjectName(QString::fromUtf8("loadImage_btn"));
-        loadImage_btn->setGeometry(QRect(40, 40, 75, 23));
-        Test_btn = new QPushButton(centralwidget);
-        Test_btn->setObjectName(QString::fromUtf8("Test_btn"));
-        Test_btn->setGeometry(QRect(40, 80, 75, 23));
         ImageViewer = new QLabel(centralwidget);
         ImageViewer->setObjectName(QString::fromUtf8("ImageViewer"));
-        ImageViewer->setGeometry(QRect(150, 40, 411, 451));
+        ImageViewer->setGeometry(QRect(200, 60, 331, 391));
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
         verticalLayoutWidget->setGeometry(QRect(580, 50, 160, 181));
@@ -125,10 +122,31 @@ public:
 
         verticalLayout->addLayout(horizontalLayout);
 
+        verticalLayoutWidget_2 = new QWidget(centralwidget);
+        verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
+        verticalLayoutWidget_2->setGeometry(QRect(20, 60, 160, 105));
+        verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
+        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
+        loadImage_btn = new QPushButton(verticalLayoutWidget_2);
+        loadImage_btn->setObjectName(QString::fromUtf8("loadImage_btn"));
+
+        verticalLayout_2->addWidget(loadImage_btn);
+
+        Test_btn = new QPushButton(verticalLayoutWidget_2);
+        Test_btn->setObjectName(QString::fromUtf8("Test_btn"));
+
+        verticalLayout_2->addWidget(Test_btn);
+
+        pushButton = new QPushButton(verticalLayoutWidget_2);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+
+        verticalLayout_2->addWidget(pushButton);
+
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 22));
+        menubar->setGeometry(QRect(0, 0, 800, 18));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -142,8 +160,6 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        loadImage_btn->setText(QCoreApplication::translate("MainWindow", "Load image", nullptr));
-        Test_btn->setText(QCoreApplication::translate("MainWindow", "Test", nullptr));
         ImageViewer->setText(QString());
         RGB->setText(QCoreApplication::translate("MainWindow", "RGB", nullptr));
         Info->setText(QCoreApplication::translate("MainWindow", "Info", nullptr));
@@ -153,6 +169,9 @@ public:
         widthLbl->setText(QString());
         name->setText(QCoreApplication::translate("MainWindow", "Name:", nullptr));
         nameLbl->setText(QString());
+        loadImage_btn->setText(QCoreApplication::translate("MainWindow", "Load image", nullptr));
+        Test_btn->setText(QCoreApplication::translate("MainWindow", "Test", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "Cut ROI", nullptr));
     } // retranslateUi
 
 };
